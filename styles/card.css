@@ -34,23 +34,23 @@
 }
 
 [data-suit="heart"] .pip {
-  background-image: url("/resources/cards/heart.svg");
+  background-image: url("../resources/cards/heart.svg");
 }
 
 [data-suit="diamond"] .pip {
-  background-image: url("/resources/cards/diamond.svg");
+  background-image: url("../resources/cards/diamond.svg");
 }
 
 [data-suit="spade"] .pip {
-  background-image: url("/resources/cards/spade.svg");
+  background-image: url("../resources/cards/spade.svg");
 }
 
 [data-suit="club"] .pip {
-  background-image: url("/resources/cards/club.svg");
+  background-image: url("../resources/cards/club.svg");
 }
 
 [data-suit="joker"] .pip {
-  background-image: url("/resources/cards/joker.svg");
+  background-image: url("../resources/cards/joker.svg");
 }
 
 .corner-number {
@@ -82,62 +82,62 @@
 }
 
 [data-suit="heart"] .corner-number::after {
-  content: url("/resources/cards/heart.svg");
+  content: url("../resources/cards/heart.svg");
 }
 
 [data-suit="spade"] .corner-number::after {
-  content: url("/resources/cards/spade.svg");
+  content: url("../resources/cards/spade.svg");
 }
 
 [data-suit="club"] .corner-number::after {
-  content: url("/resources/cards/club.svg");
+  content: url("../resources/cards/club.svg");
 }
 
 [data-suit="diamond"] .corner-number::after {
-  content: url("/resources/cards/diamond.svg");
+  content: url("../resources/cards/diamond.svg");
 }
 
 [data-value="J"][data-suit="diamond"] .pip {
-  background-image: url("/resources/cards/jack_of_diamonds.svg");
+  background-image: url("../resources/cards/jack_of_diamonds.svg");
 }
 [data-value="J"][data-suit="heart"] .pip {
-  background-image: url("/resources/cards/jack_of_hearts.svg");
+  background-image: url("../resources/cards/jack_of_hearts.svg");
 }
 [data-value="J"][data-suit="spade"] .pip{
-  background-image: url("/resources/cards/jack_of_spades.svg");
+  background-image: url("../resources/cards/jack_of_spades.svg");
 }
 [data-value="J"][data-suit="club"] .pip {
-  background-image: url("/resources/cards/jack_of_clubs.svg");
+  background-image: url("../resources/cards/jack_of_clubs.svg");
 }
 
 [data-value="Q"][data-suit="diamond"] .pip{
-  background-image: url("/resources/cards/queen_of_diamonds.svg");
+  background-image: url("../resources/cards/queen_of_diamonds.svg");
 }
 [data-value="Q"][data-suit="heart"] .pip {
-  background-image: url("/resources/cards/queen_of_hearts.svg");
+  background-image: url("../resources/cards/queen_of_hearts.svg");
 }
 [data-value="Q"][data-suit="spade"] .pip{
-  background-image: url("/resources/cards/queen_of_spades.svg");
+  background-image: url("../resources/cards/queen_of_spades.svg");
 }
 [data-value="Q"][data-suit="club"] .pip {
-  background-image: url("/resources/cards/queen_of_clubs.svg");
+  background-image: url("../resources/cards/queen_of_clubs.svg");
 }
 
 [data-value="K"][data-suit="diamond"] .pip{
-  background-image: url("/resources/cards/king_of_diamonds.svg");
+  background-image: url("../resources/cards/king_of_diamonds.svg");
 }
 [data-value="K"][data-suit="heart"] .pip {
-  background-image: url("/resources/cards/king_of_hearts.svg");
+  background-image: url("../resources/cards/king_of_hearts.svg");
 }
 [data-value="K"][data-suit="spade"] .pip{
-  background-image: url("/resources/cards/king_of_spades.svg");
+  background-image: url("../resources/cards/king_of_spades.svg");
 }
 [data-value="K"][data-suit="club"] .pip {
-  background-image: url("/resources/cards/king_of_clubs.svg");
+  background-image: url("../resources/cards/king_of_clubs.svg");
 }
 
 [data-value="Joker"][data-suit="Joker"] .pip{
-  background-image: url("/resources/cards/joker.svg");
+  background-image: url("../resources/cards/joker.svg");
 }
 [data-value="Joker"] .pip,
 [data-value="A"] .pip,
