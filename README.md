@@ -1,5 +1,7 @@
 # Dumbal 
 
+[Play online Demo](https://elijuszek.github.io/DumbalJS/)
+
 Online Web card game project made using JavaScript
 
 The game is called __*Dumbal*__ and pretty much everyone in Nepal knows how to play it. Although the rules are quite simple it's a really fun game to play and we spent hours every day playing it. Especially the fact that the personality of the players comes into it makes it interesting and also because you have to change your strategy as a round gets closer to the end.
