@@ -4,25 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dumbal</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
+
+  <!-- Styles -->
+  <link href="/styles/card.css" type="text/css" rel="stylesheet" >
+  <link href="/styles/titleScreen.css" type="text/css" rel="stylesheet">
+  <link href="/styles/game.css" type="text/css" rel="stylesheet">
 </head>
+
 <body>
-  <div class="card" data-suit="spade" data-value="A"></div>
-  <div class="card" data-suit="spade" data-value="2"></div>
-  <div class="card" data-suit="spade" data-value="3"></div>
-  <div class="card" data-suit="spade" data-value="4"></div>
-  <div class="card" data-suit="spade" data-value="5"></div>
-  <div class="card" data-suit="spade" data-value="6"></div>
-  <div class="card" data-suit="spade" data-value="7"></div>
-  <div class="card" data-suit="spade" data-value="8"></div>
-  <div class="card" data-suit="spade" data-value="9"></div>
-  <div class="card" data-suit="spade" data-value="10"></div>
-  <div class="card" data-suit="spade" data-value="J"></div>
-  <div class="card" data-suit="spade" data-value="Q"></div>
-  <div class="card" data-suit="spade" data-value="K"></div>
-  <div class="card" data-suit="heart" data-value="K"></div>
-  <div class="card" data-suit="Joker" data-value="Joker"></div>
-  <div class="card" data-suit="club" data-value="J"></div>
+  <div class="game-container">
+    <canvas class="game-canvas" width="352" height="198"></canvas>
+  </div>
+
+  <!-- Scripts -->
+  <script src="/scripts/main.js"></script>
+  <script src="/scripts/titleScreen.js"></script>
+  <script src="/scripts/game.js"></script>
+
 </body>
 </html>
