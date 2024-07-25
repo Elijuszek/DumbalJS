@@ -12,6 +12,11 @@
   grid-template-rows: repeat(8, 1fr);
   align-items: center;
   position: relative;
+  cursor: grab;
+}
+
+.card:active {
+  cursor: grabbing;
 }
 
 [data-suit="heart"].card,

@@ -69,3 +69,6 @@ function createPip(suit) {
   pip.dataset.suit = suit;
   return pip;
 }
+
+// Initialize the game screen
+initGameScreen();
